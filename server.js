@@ -41,7 +41,7 @@ app.get('/admin', function(req, res){
 
 
 app.get('/about', function(req, res){
-    res.send("<H1>'about.html'</H1>");// the HTML file
+    res.render('about.html');// the HTML file
 });
 
 app.get('/contact', function(req, res){
